@@ -42,3 +42,7 @@ export async function loadFormatter() {
 export function joinWords(separator, ...words) {
   return words.filter(Boolean).join(separator);
 }
+// 7. Simple greeting function (My custom utility)
+export function sayHello(name) {
+  return `Hello, ${name}!`;
+}
